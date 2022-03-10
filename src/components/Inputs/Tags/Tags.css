@@ -1,0 +1,19 @@
+.ti-input{
+    border: white !important;
+}
+
+.ti-tag{
+    height: 35px !important;
+    border-radius: 8px !important;
+    background-color: #355389 !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 900 !important;
+    font-size: 20px !important;
+}
+
+.vue-tags-input{
+    max-width: 100% !important;
+    border: 2px solid black !important;
+    min-height: 144px;
+    max-height: 100% !important;
+}

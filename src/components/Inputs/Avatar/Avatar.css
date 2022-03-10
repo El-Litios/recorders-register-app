@@ -1,0 +1,36 @@
+
+
+.AvatarImage .foo {
+    display: block;
+    position: relative;
+    margin: auto;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 5px;
+    outline: 0;
+    
+    
+}
+.AvatarImage .foo:hover:after {
+    background: #fb6eb0;
+}
+.AvatarImage .foo:after {
+    background: #F74B9A;
+    text-shadow: 0 2px 0 rgba(0,0,0,.2);
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: 'CARGAR FOTO';
+    line-height: 30px;
+    border-radius: 5px;
+}
+
+.AvatarImage .v-image{
+    display: block;
+    margin: 0 auto;
+}

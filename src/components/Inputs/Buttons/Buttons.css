@@ -1,0 +1,43 @@
+#btn1{
+    background-color: #9EC543 !important;
+    width: 80px;
+}
+
+#btn2{
+    background-color: #1BC5ED !important;
+    width: 80px;
+    margin-left: 17px;
+}
+
+#btn3{
+    background-color: #F74B9A !important;
+    margin-left: 17px;
+}
+
+#btn4{
+    background-color: #1FCB54 !important;
+}
+
+#btn5{
+    background-color: #F7CC7F !important;
+    margin-left: 17px;
+}
+
+.Buttons .v-btn span{
+    color: rgba(0, 0, 0, 0.90);
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.Buttons .v-item-group .v-btn{
+    border-radius: 8px;
+}
+
+.Buttons .v-item--active{
+    color: black !important;
+}
+
+.Buttons {
+   display: block !important;
+}

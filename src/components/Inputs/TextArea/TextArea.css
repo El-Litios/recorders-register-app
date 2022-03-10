@@ -1,0 +1,9 @@
+.v-text-field__slot textarea{
+    border-radius: 8px;
+    padding-left: 8px !important;
+}
+
+.TxtArea .v-text-field{
+    padding-top: 0px;
+    margin-top: 0px;
+}

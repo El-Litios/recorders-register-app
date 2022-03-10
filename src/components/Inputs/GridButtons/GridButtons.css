@@ -1,0 +1,42 @@
+.gridButtons{
+    align-items: flex-start;
+}
+
+.gridButtons .v-btn-toggle{
+    flex-direction: column;
+}
+
+.gridButtons .v-btn{
+    background-color: white !important;
+    border: 2px solid #355389 !important;
+    width: 220px;
+    margin: 5px 5px;
+}
+
+.gridButtons .v-item-group .v-btn__content{
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+}
+
+.gridButtons .v-item--active{
+    background-color: #355389 !important;
+    color: white !important;
+}
+
+.gridButtons .ColTopBtns{
+    padding-bottom: 0px;
+}
+.gridButtons .ColBopBtns{
+    padding-top: 0px;
+}
+
+.theme--light.v-btn-toggle:not(.v-btn-toggle--group) .v-btn.v-btn{
+    border-color: #355389 !important;
+}
+
+@media (max-width: 901px){
+    .gridButtons .col-12{
+      flex: 0 0 0 !important;
+    }
+  } 
